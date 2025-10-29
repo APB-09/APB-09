@@ -23,6 +23,18 @@
    border-radius: 5px;/* pas de soulignement */
   font-weight: bold;        /* facultatif : met en valeur */
 }
+   .logo-centre {
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;  /* rond (facultatif) */
+      opacity: 0.9;        /* un peu transparent */
+      transition: all 0.3s ease;
+    }
+   .logo-centre:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
 
 .lien:hover {
   color: RGB(8, 18, 80);   /* change de couleur au survol */
@@ -31,6 +43,7 @@
       </style>
    </head>
    <body style="background-color:RGB(12, 37, 163);">
+      <img src="logo apb.jpg" alt="Logo APB" class="logo-centre">
     <h1 style="text-align:center; font-size:60px; color:white; text-decoration: underline;">Nos Partenaires</h1>
    <h2 style="text-align: center; background-color: lightcyan; text-decoration: underline;">Nos partenaires APB :</h2>
         <p style="background-color: powderblue; font-size : 20px"><a href="index.html">Retour à l'accueil</a>
@@ -174,10 +187,10 @@
     <h3 style="background-color: powderblue"><a href="mailto: contactapb09@gmail.com">Contactez nous : contactapb09@gmail.com</a></h3>
       <p style="background-color: powderblue; font-size : 20px"><a href="index.html">Retour à l'accueil</a>
    <p></p>
-   <img src="logo apb.jpg" alt="Logo APB" style="width:200px; height:150px;">
 </body>
 
 </html>
+
 
 
 
