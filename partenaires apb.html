@@ -23,23 +23,24 @@
    border-radius: 5px;/* pas de soulignement */
   font-weight: bold;        /* facultatif : met en valeur */
 }
-   .logo-centre {
-      text-align: center; 
-      width: 250px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 50%;  /* rond (facultatif) */
-      opacity: 0.9;        /* un peu transparent */
-      transition: all 0.3s ease;
-    }
-   .logo-centre:hover {
-      opacity: 1;
-      transform: scale(1.05);
-    }
-
-.lien:hover {
+   .lien:hover {
   color: RGB(8, 18, 80);   /* change de couleur au survol */
     background-color: white;
+}
+   .logo-centre {
+  display: block;        /* transforme l'image en bloc */
+  margin: 20px auto;     /* auto = centrage horizontal */
+  width: 250px;          /* taille */
+  height: 200px;
+  object-fit: cover;     /* garde les proportions */
+  border-radius: 50%;    /* rend l'image ronde */
+  opacity: 0.9;          /* légère transparence */
+  transition: all 0.3s ease;
+}
+
+.logo-centre:hover {
+  opacity: 1;
+  transform: scale(1.05); /* effet au survol */
 }
       </style>
    </head>
@@ -191,6 +192,7 @@
 </body>
 
 </html>
+
 
 
 
