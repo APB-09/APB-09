@@ -3,22 +3,39 @@
    <head>
       <title> Alliance Pyrenées Business</title>
       <style>
-    .logo-container {
-      text-align: center;
-      margin-top: 20px;
+    body {
+      background-color: rgb(12, 37, 163);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    .logo-centre {
+    /* Conteneur du logo et du titre */
+    header {
+      text-align: center;   /* centre tout à l’intérieur */
+      margin-top: 20px;     /* espace depuis le haut */
+    }
+    /* Le logo */
+    logo-centre {
       width: 250px;
       height: 200px;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 50%;   /* rond (tu peux retirer si tu veux la forme d’origine) */
       opacity: 0.9;
       transition: all 0.3s ease;
+      display: block;
+      margin: 0 auto;       /* garantit le centrage horizontal */
     }
-    .logo-centre:hover {
+    logo-centre:hover {
       opacity: 1;
-      transform: scale(1.05);
+      transform: scale(1.05); /* petit zoom au survol */
     }
+    /* Le titre */
+    h1 {
+      margin-top: 10px;
+      font-size: 2em;
+    }
+   </body>
   </style>
    </head>
    <body style="background-color: rgb(12, 37, 163)">
@@ -33,6 +50,7 @@
    <p></p>
 </body>
 </html>
+
 
 
 
